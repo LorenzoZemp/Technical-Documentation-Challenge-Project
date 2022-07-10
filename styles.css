@@ -63,8 +63,11 @@ section {
   margin-bottom: 4rem;
 }
 
-code {
+.code {
+  padding: 0.5rem;
+  padding-left: 1rem;
   background-color: rgb(221, 221, 221);
+  border-radius: 2px;
 }
 
 @media (max-width: 1000px) {
