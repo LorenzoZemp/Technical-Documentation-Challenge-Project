@@ -19,7 +19,7 @@ html {
   overflow: scroll;
 }
 
-#navbar {
+#navbar ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -65,4 +65,14 @@ section {
 
 code {
   background-color: rgb(221, 221, 221);
+}
+
+@media (max-width: 1000px) {
+  .sidebar-nav {
+    display: none;
+  }
+
+  #main-doc {
+    margin-left: 1em;
+  }
 }
